@@ -1,0 +1,124 @@
+//* CONTENEDOR NOTICIAS *//
+
+.separador-noticias {
+    display: flex;
+    width: 100%;
+    background-color: $color-separadores ;
+    color: $color-textoPrimario;
+    background-position: center;
+    text-align: center;
+    padding: 10px;
+
+    img {
+        width: 35px;
+        height: 35px;
+    }
+
+    p {
+        font-size: 22px;
+        align-items: center;
+        font-weight: bold;
+        transform: translateY(3%);
+        padding-left: 10px;
+    }
+}
+
+
+.noticias {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 100%;
+    background-color: $color-fondos;
+    color: $color-textoPrimario;
+    gap: 15px;
+    padding: 10px;
+}
+
+.cont-noticias {
+    display: flex;
+    background-color: $color-separadores;
+    width: 100%;
+    border-radius: 1%;
+}
+
+.titulo-noticias {
+    font-size: 24px;
+    font-weight: normal;
+    margin-left: 6px;
+    
+    a {
+    color: $color-textoPrimario;
+    text-decoration: none;   
+    transition: 0.3s ease; 
+    }
+    
+    a:hover {
+    font-weight: bold;
+    }
+}
+
+.noti {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+
+    .fecha-noti {
+        display: flex;
+        font-size: 12px;
+        font-weight: bold;
+        color: $color-textoSecundario;
+        margin-top: 4px;
+    }
+
+    h4 {
+        font-size: 24px;
+
+    }
+
+
+    h4, .fecha-noti {
+        margin-left: 6px;
+    }
+
+    h4 a {
+        color: $color-textoPrimario;
+        text-decoration: none;
+        font-weight: normal;
+        transition: 0.3s ease;
+    }
+
+    h4 a:hover {
+        font-weight: bold;
+    }
+    
+
+    .imagen-noticia {
+        display: flex;
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        padding: 5px;
+    }
+
+    .leer  {
+        display: flex;
+        width: 27px;
+        height: 27px;
+        margin: 4px;
+        padding: 2px;
+    }
+
+    .leer a {
+        text-decoration: none;
+    }
+
+    
+}
+
+.detalle-noti {
+    font-size: 16px;
+    color: $color-textoPrimario;
+    margin: 6px;
+    padding: 2px;
+}
+

@@ -1,0 +1,46 @@
+/* CONTENEDOR COBERTURAS*/
+
+.seccion-coberturas {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    width: 100%;
+    background-color: $color-fondos;
+    color: $color-textoPrimario;
+    gap: 10px;
+    padding: 10px;
+}
+
+.separador-coberturas {
+    @extend .separador-noticias;
+}
+
+
+.coberturas {
+    @extend .noticias;
+}
+
+.cont-coberturas {
+    @extend .cont-noticias;
+}
+
+.fecha-cober {
+    @extend .fecha-noti;
+}
+
+.cobertura {
+    @extend .noti;
+}
+
+.titulo-cobertura {
+    font-size: 26px;
+}
+
+.imagen-cobertura {
+    display: flex;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    padding: 5px;
+}
+
+

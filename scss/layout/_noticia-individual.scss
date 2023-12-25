@@ -1,0 +1,93 @@
+/* NOTICIA INDIVIDUAL */
+
+
+.contendor-noticiasAgenda {
+    display: grid;
+    grid-template-columns: 70% auto;
+    width: 100%;
+    max-height: auto;
+}
+
+
+.contenedor-noticia {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: $color-fondoPublicacion;
+}
+
+.fecha-noticia {
+    font-size: 14px;
+    padding-top: 15px;
+    padding-left: 15px;
+}
+
+.titulo-principal {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+.noticia p {
+    font-size: 20px;
+    padding: 0 20px;
+}
+
+.imagen-noticiaPrincipal {
+    width: 100%;
+}
+
+.imagen-noticiaSecundaria {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    width: 65%;
+}
+
+
+.entradas {
+    text-align: center;
+
+    a {
+        text-decoration: none;
+        color: #e6cb36;
+    }
+}
+
+
+.titulos-enNota {
+    text-align: center;
+    text-decoration: underline;
+    padding: 10px;
+}
+
+iframe {
+    display: flex;
+    justify-items: center;
+    margin: auto;
+    width: 90%;
+    height: 420px;
+}
+
+.redes {
+    text-align: center;
+
+    p a {
+        text-decoration: none;
+        color: $color-textoPrimario;
+        transition: 0.3s;
+    }
+
+    a:hover {
+        font-weight: bold;
+    }
+}
+
+.titulo-redes {
+    font-weight: bold;
+    text-decoration: underline;
+    color: rgb(90, 92, 214);
+}
+
+/* EL BOTON VOLVER DE LA NOTICIA INDIVIDUAL COMPARTE ESTRUCTURA CON LA COBERTURA INDIVIDUAL */
