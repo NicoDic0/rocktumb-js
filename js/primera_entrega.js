@@ -40,3 +40,4 @@ function validarNombre(banda) {
   }
   return ""; // Retorna un string vacio si pasa la validacion
 }
+
